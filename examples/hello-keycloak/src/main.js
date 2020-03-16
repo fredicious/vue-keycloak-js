@@ -1,4 +1,4 @@
-import VueKeycloakJs from '@dystudio/vue-keycloak-js'
+import VueKeycloakJs from '@gemtmp/vue-keycloak-js'
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
@@ -9,12 +9,12 @@ Vue.use(VueKeycloakJs, {
   init: {
     // Use 'login-required' to always require authentication
     // If using 'login-required', there is no need for the router guards in router.js
-    onLoad: 'check-sso'
+    onLoad: 'login-required'
   },
   config: {
-    url: 'https://mykeycloak-server.com/auth',
-    clientId: 'MyClientId',
-    realm: 'MyRealm'
+    url: 'http://124.93.26.52:63156/auth/',
+    clientId: 'hello-world',
+    realm: 'poc'
   },
   onReady: (keycloak) => {
     new Vue({
