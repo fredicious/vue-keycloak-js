@@ -1,6 +1,6 @@
 {
   "name": "@dystudio/vue-keycloak-js",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "author": "dystudio <dystudio@qq.com>",
   "description": "A Keycloak plugin for Vue >= 2.x",
   "main": "dist/dystudio-vue-keycloak.cjs.js",
