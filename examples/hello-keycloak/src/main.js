@@ -26,6 +26,7 @@ Vue.use(VueKeycloakJs, {
   onReady: (keycloak) => {
     keycloak.loadUserProfile().success((data) => {
       console.log(data);
+      console.log(keycloak);
       const client = new KeycloakAuthorization(keycloak);
       console.log(client);
     }),

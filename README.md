@@ -1,10 +1,10 @@
 vue-keycloak plugin
 -------------------
 
-[![Known Vulnerabilities](https://snyk.io/test/github/dsb-norge/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dsb-norge/vue-keycloak-js?targetFile=package.json)
-![npm](https://img.shields.io/npm/v/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
-![npm](https://img.shields.io/npm/dt/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
-![NPM](https://img.shields.io/npm/l/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
+[![Known Vulnerabilities](https://snyk.io/test/github/dystudio/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dystudio/vue-keycloak-js?targetFile=package.json)
+![npm](https://img.shields.io/npm/v/@dystudio/vue-keycloak-js.svg?style=flat-square)
+![npm](https://img.shields.io/npm/dt/@dystudio/vue-keycloak-js.svg?style=flat-square)
+![NPM](https://img.shields.io/npm/l/@dystudio/vue-keycloak-js.svg?style=flat-square)
 
 ## Introduction
 
@@ -31,13 +31,13 @@ will be redirected back to the application and remain unauthenticated.
 ### Install using yarn
 
 ```
-yarn add @dsb-norge/vue-keycloak-js
+yarn add @dystudio/vue-keycloak-js
 ```
 
 ### Install using npm
 
 ```
-npm install @dsb-norge/vue-keycloak-js --save
+npm install @dystudio/vue-keycloak-js --save
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ Tell Vue to install the plugin, and optionally pass in a JavaScript object addit
 configuration.
 
 ```javascript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
+import VueKeyCloak from '@dystudio/vue-keycloak-js'
 
 Vue.use(VueKeyCloak)
 
@@ -304,12 +304,12 @@ Vue.use(VueKeyCloak, {
 
 View a complete example app, with router guards:
 
-[hello-keycloak](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples)
+[hello-keycloak](https://github.com/dystudio/vue-keycloak-js/tree/master/examples)
 
 ## Develop and deploy
 
 ```bash
-$ git clone https://github.com/dsb-norge/vue-keycloak-js.git
+$ git clone https://github.com/dystudio/vue-keycloak-js.git
 # Do some work, add and/or commit to git.
 $ npm version patch
 ```
@@ -325,6 +325,6 @@ We try to answer the most frequently asked questions here.
 
 Short answer: You should not.
 
-For some mysterious reasons, there is undocumented support for it in the Keycloak Javascript Adapter, but it makes little sense to use it. The secret must be present in the browser, and is therefore no longer a secret. See [issue 22](https://github.com/dsb-norge/vue-keycloak-js/issues/22).
+For some mysterious reasons, there is undocumented support for it in the Keycloak Javascript Adapter, but it makes little sense to use it. The secret must be present in the browser, and is therefore no longer a secret. See [issue 22](https://github.com/dystudio/vue-keycloak-js/issues/22).
 
 The client secret is [removed from Keycloak 8.0](https://www.keycloak.org/docs/latest/release_notes/index.html#credentials-support-removed-from-the-javascript-adapter).
