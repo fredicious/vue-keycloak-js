@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/dystudio/vue-keycloak-js",
   "dependencies": {
-    "keycloak-js": "8.0.0"
+    "keycloak-js": "9.0.0"
   },
   "keywords": [
     "vue",
