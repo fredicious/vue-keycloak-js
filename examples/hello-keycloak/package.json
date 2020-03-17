@@ -7,8 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@dystudio/vue-keycloak-js": "^1.1.9",
-    "@gemtmp/vue-keycloak-js": "^1.1.6",
+    "@dystudio/vue-keycloak-js": "^1.1.12",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"

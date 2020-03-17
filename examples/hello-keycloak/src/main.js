@@ -1,4 +1,4 @@
-import VueKeycloakJs from '@gemtmp/vue-keycloak-js'
+import VueKeycloakJs from '@dystudio/vue-keycloak-js'
 import KeycloakAuthorization from 'keycloak-js/dist/keycloak-authz'
 import Vue from 'vue'
 import App from './App.vue'
