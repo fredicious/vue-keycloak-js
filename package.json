@@ -1,22 +1,22 @@
 {
-  "name": "@dystudio/vue-keycloak-js",
-  "version": "1.1.12",
-  "author": "dystudio <dystudio@qq.com>",
+  "name": "@fredicious/vue-keycloak-js",
+  "version": "1.1.13",
+  "author": "fredicious",
   "description": "A Keycloak plugin for Vue >= 2.x",
-  "main": "dist/dystudio-vue-keycloak.cjs.js",
-  "module": "dist/dystudio-vue-keycloak.esm.js",
-  "browser": "dist/dystudio-vue-keycloak.umd.js",
+  "main": "dist/fredicious-vue-keycloak.cjs.js",
+  "module": "dist/fredicious-vue-keycloak.esm.js",
+  "browser": "dist/fredicious-vue-keycloak.umd.js",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dystudio/vue-keycloak-js.git"
+    "url": "git@github.com:fredicious/vue-keycloak-js.git"
   },
   "bugs": {
-    "url": "https://github.com/dystudio/vue-keycloak-js/issues"
+    "url": "https://github.com/fredicious/vue-keycloak-js/issues"
   },
-  "homepage": "https://github.com/dystudio/vue-keycloak-js",
+  "homepage": "https://github.com/fredicious/vue-keycloak-js",
   "dependencies": {
-    "keycloak-js": "9.0.0"
+    "keycloak-js": "9.0.3"
   },
   "keywords": [
     "vue",
